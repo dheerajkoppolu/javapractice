@@ -1,15 +1,15 @@
-// Write a program to initialize your marks for 3 subjects and print the highest marks
+// Write a program to print the multiplication table of any number of your choice
 
 class Exercise3 {
-public static void main (String x[])
-  {
-    int maths=100;
-    int computers=210;
-    int java=150;
 
-    System.out.println (computers);
-  }
+	public static void main(String args[]) {
+    int n=7;
+    for (int i=1; i<=10;i++)
+      {
+        System.out.println(n+"*"+i+"="+(n*i));
+      }
 
 
+	}
 
 }

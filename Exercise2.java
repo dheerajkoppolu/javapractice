@@ -1,17 +1,21 @@
-// Write a program to solve the expression w=(x*y)/z with any input values for x,y and z
-
+/* Write a program to print the following right angle traingle pattern:
+1
+22
+333
+4444
+55555
+*/
 class Exercise2 {
-  public static void main (String ar[])
-  {
-    int x=20;
-    int y=10;
-    int z=5;
-    int w=0;
 
-    System.out.println("The solution of given expression is "+(w=(x*y)/z));
-  }
-
-
-
-
+	public static void main(String args[]) {
+    int i,j;
+    for (i=1; i<=5; i++)
+    {
+    for (j=1;j<=i;j++)
+    {
+    System.out.print(i);
+    }
+    System.out.println();
+    }
+	}
 }

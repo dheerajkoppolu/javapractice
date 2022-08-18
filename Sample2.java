@@ -1,13 +1,26 @@
-// Complete and execute java Program using Ternary operator to check your eligibility to vote
+/*Complete and execute java program to print the following pattern-
+54321
+5432
+543
+54
+5
+*/
 public class Sample2 {
-    public static void main (String args[]) {
-        // Variable declaration & initialization
-        int age =20;
-        // Using Ternary operator having three operands 
-        String result = ((age>=18) ?  "Eligible to vote" : "not eligible to vote");
-      //Enter test condition here) ? "Enter message if condition is true" : "Enter message if condition is false";
-        //Print the result below 
-        System.out.println(result);
-    }
+    
+	public static void main( String arg[]) { 
+		// Declaring loop variables
+		int i , j ;
+		// Outer loop for rows 
+    
+		for(i=1;i<=5;i++)   //Initialization;condition;increment/decrement) 
+    {
+			// Inner loop for columns
+	  for(j=5;j>=i;j--) //Initialization;condition;increment/decrement) 
+    {
+	  System.out.print(j);//Write print statement here
+	  }
+			// changing line at the end of each row to show the correct pattern
+	  System.out.println();
+		}
+	}
 }
-

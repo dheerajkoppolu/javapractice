@@ -1,22 +1,20 @@
-// Complete the execute the java Program for Logical Operators
-public class Sample1{
-    
- public static void main(String[] args) {
-     
-  //Variables Definition and Initialization
-  boolean x = true;
-  boolean y = false;
-  
-  //Logical AND
-  System.out.println(x&y);
-   //Enter code here to perform Logical AND operation between x and y);
-  
-  //Logical OR
-  System.out.println(x|y);//Enter code here to perform Logical OR operation between x and y);
-  
-  //Write Logical NOT for x in println statement below
-  System.out.println(!x);
-  
+// Complete and execute the program to print numbers till 7
+
+class Sample1 {
+
+	public static void main(String args[]) {
+
+		int i = 0;
+		while (i < 10) {
+      if(i==7){
+       break; 
+      }
+  			System.out.println(i);
+      i++;
+ 		
+      
   }
-}
+  			// Write a condition to break the loop when numbers till 7 are printed in console
+		}
+	}
 
